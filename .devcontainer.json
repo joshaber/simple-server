@@ -1,0 +1,11 @@
+{
+  "forwardPorts": [80],
+  "appPort": [80],
+  "portsAttributes": {
+    "80": {
+      "label": "web",
+      "requireLocalPort": true,
+      "elevateIfNeeded": true
+    }
+  }
+}
