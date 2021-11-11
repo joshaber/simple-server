@@ -1,0 +1,16 @@
+{
+  "build": {
+      "dockerfile": "Dockerfile",
+      "args": {
+          "VARIANT": "focal"
+      }
+  },
+  "initializeCommand": "touch heythere.txt && printenv > myenv.txt",
+  "containerEnv": {
+      "MY_LOCAL_HOME": "${localEnv:HOME}",
+      "A_SIMPLE_KEY": "A_SIMPLE_VALUE"
+  },
+  "remoteUser": "mock-remote",
+  "containerUser": "mock-container",
+  "postCreateCommand": "echo `whoami`> whoami.txt && bash ./run-me.sh"
+}
