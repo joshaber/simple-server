@@ -12,5 +12,10 @@
   },
   "remoteUser": "mock-remote",
   "containerUser": "mock-container",
-  "postCreateCommand": "echo `whoami`> whoami.txt && bash ./run-me.sh"
+  "postCreateCommand": "echo `whoami`> whoami.txt && bash ./run-me.sh",
+  "codespaces": {
+    "devcontainers": {
+      "other": "https://github.com/joshaber/simple-server/tree/devcontainer"
+    }
+  }
 }
