@@ -16,7 +16,7 @@
   "codespaces": {
     "otherRepositories": [
       "https://github.com/joshaber/simple-server": {
-        "devcontainer": {
+        "devContainer": {
         }
       }
     ]
