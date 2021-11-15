@@ -14,10 +14,10 @@
   "containerUser": "mock-container",
   "postCreateCommand": "echo `whoami`> whoami.txt && bash ./run-me.sh",
   "codespaces": {
-    "otherRepositories": [
-      "https://github.com/joshaber/simple-server": {
-        "devContainer": {
-        }
+    "additionalRepositories": [
+      {
+        "url": "https://github.com/joshaber/simple-server",
+        "devcontainer": {}
       }
     ]
   }
