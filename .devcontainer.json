@@ -1,0 +1,14 @@
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "joshaber/*": {
+          "permissions": {
+            "contents": "read",
+            "packages": "read"
+          }
+        }
+      }
+    }
+  }
+}
