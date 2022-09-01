@@ -1,0 +1,3 @@
+{
+  "postAttachCommand": ["echo", "hello '${containerWorkspaceFolderBasename}'"]
+}
