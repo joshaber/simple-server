@@ -1,3 +1,3 @@
 {
-  "postAttachCommand": ["ls", "oh", "no"]
+  "postAttachCommand": ["ls", "my dir", "no"]
 }
