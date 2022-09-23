@@ -1,7 +1,7 @@
 {
   "customizations": {
     "codespaces": {
-      "openFiles": ["index.js", "package.json]
+      "openFiles": ["index.js", "package.json"]
     }
   }
 }
