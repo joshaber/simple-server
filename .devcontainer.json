@@ -1,3 +1,3 @@
 {
-  "postAttachCommand": ["ls", "my dir", "no"]
+  "postAttachCommand": ["mysql", "-u", "root", "-p", "my database"]
 }
