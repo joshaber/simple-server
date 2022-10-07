@@ -1,15 +1,15 @@
 {
   "postAttachCommand": {
-    "server": "yarn start"
+    "server": ".devcontainer/post-attach-command"
   },
-  
+
   "portsAttributes": {
     "3000": {
       "label": "Application",
       "onAutoForward": "openPreview"
     }
   },
-    
+
   "customizations": {
     "codespaces": {
       "openFiles": ["index.js"]
