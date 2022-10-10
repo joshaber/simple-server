@@ -1,6 +1,6 @@
 {
   "postAttachCommand": {
-    "server": ".devcontainer/post-attach-command"
+    "server": "yarn start"
   },
 
   "portsAttributes": {
