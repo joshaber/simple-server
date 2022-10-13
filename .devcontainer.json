@@ -1,0 +1,10 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/ruby:2.7",
+
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
