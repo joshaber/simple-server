@@ -1,0 +1,3 @@
+{
+  "postAttachCommand": "sleep 3600"
+}
