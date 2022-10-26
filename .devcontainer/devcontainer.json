@@ -2,6 +2,8 @@
   "postAttachCommand": {
     "server": "yarn start"
   },
+  
+  "waitFor": "postCreateCommand",
 
   "portsAttributes": {
     "3000": {
