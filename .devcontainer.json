@@ -1,0 +1,7 @@
+{
+  "containerEnv": {
+    "BP_DEV": "${localEnv:BP_DEV}",
+    "PATH": "/workspaces/github/vendor/node:${containerEnv:PATH}:/workspaces/insights-dataplatform/.dotnet:/workspaces/actions/actions-dotnet/.dotnet:/workspaces/github/bin",
+    "BUNDLE_RUBYGEMS__PKG__GITHUB__COM": "${localEnv:GITHUB_USER}:${localEnv:GITHUB_TOKEN}"
+  }
+}
