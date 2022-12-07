@@ -1,0 +1,3 @@
+{
+  "postStartCommand": "touch ~/poststart.txt"
+}
