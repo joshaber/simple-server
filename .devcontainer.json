@@ -1,3 +1,4 @@
 {
-  "postCreateCommand": "false"
+  "postCreateCommand": "false",
+  "postStartCommand": "echo hi"
 }
