@@ -1,0 +1,13 @@
+{
+  "forwardPorts": [
+    3000
+  ],
+  "appPort": [
+   3000
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "web"
+    }
+  }
+}
