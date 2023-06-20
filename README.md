@@ -1,4 +1,3 @@
 # simple-server
 
-This is a very simple (but good!) server?
-test
+This is a very simple (but good?) server!
