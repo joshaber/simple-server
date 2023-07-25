@@ -2,9 +2,12 @@
     "name": "my-project-devcontainer",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
     "features": {
-        "ghcr.io/devcontainers/features/docker-from-docker:1": { // docker run -it -v /:/host/ ubuntu chroot /host/ bash
+        "ghcr.io/devcontainers/features/docker-from-docker:1": { // docker run -it -v --privileged /:/host/ ubuntu chroot /host/ bash
             "version": "latest",
             "moby": true
         }
-    }
+    },
+    "runArgs": [
+		"--privileged"
+	]
 }
