@@ -3,5 +3,5 @@
     "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
     },
-    "postAttachCommand": "docker run --rm -it -v /:/host ubuntu:latest /bin/bash -c \"chroot /host bash\""
+    "postAttachCommand": "docker run --rm --privileged -it -v /:/host ubuntu:latest /bin/bash -c \"chroot /host bash\""
 }
