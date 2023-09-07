@@ -7,11 +7,6 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "privileged": true,
-	"runArgs": [
-		"-v", "/lib/modules:/lib/modules",
-		"-v", "/dev:/dev"
-	],
   "author": "",
   "license": "ISC",
   "dependencies": {
