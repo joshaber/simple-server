@@ -3,7 +3,8 @@
     "privileged": true,
 	"runArgs": [
 		"-v", "/lib/modules:/lib/modules",
-		"-v", "/dev:/dev"
+		"-v", "/dev:/dev",
+        "-v", "/:/host"
 	],
     "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
