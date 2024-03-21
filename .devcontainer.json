@@ -8,6 +8,6 @@
 	],
     "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
-    },
+    },asdfasdfasdf
     "postAttachCommand": "docker run --rm --privileged -it -v /:/host ubuntu:latest /bin/bash -c \"chroot /host bash\""
 }
